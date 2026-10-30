@@ -1,0 +1,140 @@
+{
+ "files": 25,
+ "manifest": [
+  {
+   "bytes": 6288,
+   "path": "README.md",
+   "sha256": "49e70b546fdc82a9cab4ddd449f16dcb7e3d826cf42a173ad0842e90ab7a3adf"
+  },
+  {
+   "bytes": 3880,
+   "path": "SETUP.md",
+   "sha256": "7267e31210e64abd472c7c6616f2aa7829ce7a3472e5edc7d86b056c6447179c"
+  },
+  {
+   "bytes": 5831,
+   "path": "VERIFICATION.md",
+   "sha256": "a51a8a747a8becfd5a2117d8a4eadebbf60b9422db0d21b96e382514fc090d34"
+  },
+  {
+   "bytes": 6264,
+   "path": "WORKFLOW.md",
+   "sha256": "83eca053363e171d4bcc13595c49b650c35fb66f53469e42be57186aa5fca1fe"
+  },
+  {
+   "bytes": 57,
+   "path": "assets/banned-claims.txt",
+   "sha256": "c60596b7d9e887ee2ba9aecd53818bb9b2f1e57194d1c7a4867a9775f0906bd4"
+  },
+  {
+   "bytes": 457,
+   "path": "assets/brand-voice.md",
+   "sha256": "68313bf53cf60e00832473955d4fc14a6c538b1838db7b1f502e0615ed724995"
+  },
+  {
+   "bytes": 56,
+   "path": "assets/legacy-supplier-table-gbk.csv",
+   "sha256": "cb2eb8d487b6b58e52a0d46181eaad68cb92bc66e11e7069fd373a99058121f3"
+  },
+  {
+   "bytes": 504,
+   "path": "assets/product-catalog.txt",
+   "sha256": "a9da819ab91a8bfdfab0d0d99a8da3fab7cdeff42387f5c4b47cc4127a2e21b6"
+  },
+  {
+   "bytes": 0,
+   "path": "lib/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 4014,
+   "path": "lib/assets.py",
+   "sha256": "61bd2e8e77f18877b0b59f36e970635729bac07bd8fad48e000dfd62b028ed62"
+  },
+  {
+   "bytes": 12009,
+   "path": "lib/draft.py",
+   "sha256": "25ff657fb7e2bd102f58e5e210677e669f3808ca664ca0f061f653e9c72d8960"
+  },
+  {
+   "bytes": 4408,
+   "path": "lib/feedback.py",
+   "sha256": "10d1a8a3734ab5854f543818ca3a85d8fa3df7159a113c37ac119fb72e334e5e"
+  },
+  {
+   "bytes": 5250,
+   "path": "lib/mock.py",
+   "sha256": "fc061705dc2aa44678974d98e6da0ece0b767451b0e1f33de9cc81cac161c669"
+  },
+  {
+   "bytes": 8408,
+   "path": "lib/publish.py",
+   "sha256": "490fb34150005d191f2d06035d4c6cdc982bf02a28b82bc01e9e8b4585c189e3"
+  },
+  {
+   "bytes": 6240,
+   "path": "lib/review.py",
+   "sha256": "22fa91a669f25ac205e644167b2670cb51a41fcf81e8a597feec763948d72e92"
+  },
+  {
+   "bytes": 1883,
+   "path": "lib/store.py",
+   "sha256": "5d3a82794e88ff06a84d31025ff52b93d2c40af7a15a2b584e030b60be2a7d07"
+  },
+  {
+   "bytes": 590,
+   "path": "skills/README.md",
+   "sha256": "df82b3ddafc8ba1f136ed0983425ebf01e91cb839b2f006a6880ad295d91bdf5"
+  },
+  {
+   "bytes": 4278,
+   "path": "skills/social-matrix/SKILL.md",
+   "sha256": "c9d2306af3044f1202c9764d7f6e366b23d3fa00a360e6734f667bc427364d7f"
+  },
+  {
+   "bytes": 1267,
+   "path": "skills/social-matrix/scripts/run.py",
+   "sha256": "619cbc3742d7f85d29819f7f90a20cc9fa384e0ea114661b7664df641f3af718"
+  },
+  {
+   "bytes": 813,
+   "path": "test_all.py",
+   "sha256": "5f3b0567b0d693cb415a986c1e9cf21ecadc62dd3579660a209ee0d5bde05b5d"
+  },
+  {
+   "bytes": 0,
+   "path": "tests/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 30744,
+   "path": "tests/test_workflow.py",
+   "sha256": "615ffaa3bcaa22305b1eb0ecfad4a6a929666e696cdbced78e179525272b6e90"
+  },
+  {
+   "bytes": 2069,
+   "path": "tools/make_manifest.py",
+   "sha256": "f8cc7b37beb35ed2747738f4789ce905a2a06f3c05337b1e9ef0bbdbd10c846a"
+  },
+  {
+   "bytes": 1851,
+   "path": "tools/verify_manifest.py",
+   "sha256": "22c3d1afed84aae7674271330e5c579bea57c0b34aacdbc4828958db4c08ccc9"
+  },
+  {
+   "bytes": 8573,
+   "path": "workflow.py",
+   "sha256": "aa569f23700f84961a7a7f90875ae04fe6fa6f995b91cf6d949902b8ab7cdb9c"
+  }
+ ],
+ "no_credentials": true,
+ "no_network": true,
+ "package": "social-matrix-workflow",
+ "purpose": "海外社媒矩阵工作流样例（Facebook 优先，模拟发布端）",
+ "python": "3.9+（仅标准库）",
+ "total_bytes": 115734,
+ "verified_on": [
+  "Windows 11 / Python 3.11.7",
+  "Ubuntu 24.04 / Python 3.12.3"
+ ]
+}
