@@ -1,0 +1,23 @@
+{"account": "fb-main", "at": 1794106616.6785188, "draft_id": "d_7672e0f75a101751", "event": "attempt_start", "idempotency_key": "idem_46b9b2c892da0f424933a496", "reviewer": "demo-reviewer", "slot": "D+0"}
+{"at": 1794106616.6999528, "attempt": 1, "body": {"error": "service unavailable (simulated)"}, "event": "attempt_result", "http": 503, "idempotency_key": "idem_46b9b2c892da0f424933a496", "retryable": true}
+{"at": 1794106616.7029555, "attempt": 2, "body": {"ok": true, "post_id": "post_2"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_46b9b2c892da0f424933a496", "retryable": false}
+{"at": 1794106616.7040331, "attempts": 2, "draft_id": "d_7672e0f75a101751", "duplicate": false, "event": "published", "idempotency_key": "idem_46b9b2c892da0f424933a496", "ok": true, "post_id": "post_2"}
+{"account": "fb-main", "at": 1794106616.7054534, "draft_id": "d_fc67d80b52085e69", "event": "attempt_start", "idempotency_key": "idem_e8c17ca88abfcc2dac4afc82", "reviewer": "demo-reviewer", "slot": "D+0"}
+{"at": 1794106616.730963, "attempt": 1, "body": {"ok": true, "post_id": "post_3"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_e8c17ca88abfcc2dac4afc82", "retryable": false}
+{"at": 1794106616.7329514, "attempts": 1, "draft_id": "d_fc67d80b52085e69", "duplicate": false, "event": "published", "idempotency_key": "idem_e8c17ca88abfcc2dac4afc82", "ok": true, "post_id": "post_3"}
+{"account": "fb-main", "at": 1794106616.7345593, "draft_id": "d_cd7bbb3f07b1dfa3", "event": "attempt_start", "idempotency_key": "idem_382300297c1f364140511464", "reviewer": "demo-reviewer", "slot": "D+1"}
+{"at": 1794106616.7618482, "attempt": 1, "body": {"ok": true, "post_id": "post_4"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_382300297c1f364140511464", "retryable": false}
+{"at": 1794106616.7638156, "attempts": 1, "draft_id": "d_cd7bbb3f07b1dfa3", "duplicate": false, "event": "published", "idempotency_key": "idem_382300297c1f364140511464", "ok": true, "post_id": "post_4"}
+{"account": "fb-main", "at": 1794106616.766251, "draft_id": "d_f1c40c443be01c4a", "event": "attempt_start", "idempotency_key": "idem_3a15ac9e2166f91ff7e21bd7", "reviewer": "demo-reviewer", "slot": "D+1"}
+{"at": 1794106616.7938, "attempt": 1, "body": {"ok": true, "post_id": "post_5"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_3a15ac9e2166f91ff7e21bd7", "retryable": false}
+{"at": 1794106616.796317, "attempts": 1, "draft_id": "d_f1c40c443be01c4a", "duplicate": false, "event": "published", "idempotency_key": "idem_3a15ac9e2166f91ff7e21bd7", "ok": true, "post_id": "post_5"}
+{"account": "fb-main", "at": 1794106616.7987828, "draft_id": "d_dc25a8ac7bc6bf9b", "event": "attempt_start", "idempotency_key": "idem_1afd6d8b21238b98e5792ab0", "reviewer": "demo-reviewer", "slot": "D+1"}
+{"at": 1794106616.8233206, "attempt": 1, "body": {"ok": true, "post_id": "post_6"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_1afd6d8b21238b98e5792ab0", "retryable": false}
+{"at": 1794106616.8248, "attempts": 1, "draft_id": "d_dc25a8ac7bc6bf9b", "duplicate": false, "event": "published", "idempotency_key": "idem_1afd6d8b21238b98e5792ab0", "ok": true, "post_id": "post_6"}
+{"account": "fb-main", "at": 1794106617.3171937, "draft_id": "d_7672e0f75a101751", "event": "attempt_start", "idempotency_key": "idem_46b9b2c892da0f424933a496", "reviewer": "demo-reviewer", "slot": "D+0"}
+{"at": 1794106617.321211, "attempt": 1, "body": {"error": "invalid payload (simulated, non-retryable)"}, "event": "attempt_result", "http": 400, "idempotency_key": "idem_46b9b2c892da0f424933a496", "retryable": false}
+{"account": "fb-main", "at": 1794106617.3226871, "attempts": 1, "draft_id": "d_7672e0f75a101751", "event": "dead_letter", "idempotency_key": "idem_46b9b2c892da0f424933a496", "last_http": 400, "reason": "不可重试错误（第 1 次尝试，http=400）", "slot": "D+0"}
+{"account": "fb-main", "at": 1794106617.8271413, "draft_id": "d_7672e0f75a101751", "event": "attempt_start", "idempotency_key": "idem_46b9b2c892da0f424933a496", "reviewer": "demo-reviewer", "slot": "D+0"}
+{"at": 1794106617.830028, "attempt": 1, "body": {"error": "rate limited", "retry_after": 1}, "event": "attempt_result", "http": 429, "idempotency_key": "idem_46b9b2c892da0f424933a496", "retryable": true}
+{"at": 1794106617.8320372, "attempt": 2, "body": {"ok": true, "post_id": "post_2"}, "event": "attempt_result", "http": 200, "idempotency_key": "idem_46b9b2c892da0f424933a496", "retryable": false}
+{"at": 1794106617.8335977, "attempts": 2, "draft_id": "d_7672e0f75a101751", "duplicate": false, "event": "published", "idempotency_key": "idem_46b9b2c892da0f424933a496", "ok": true, "post_id": "post_2"}

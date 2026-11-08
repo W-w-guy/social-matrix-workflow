@@ -1,0 +1,16 @@
+{
+ "accounts": {
+  "fb-main": {
+   "duplicate": 0,
+   "failed": 1,
+   "ok": 5,
+   "retried": 1,
+   "total": 6
+  }
+ },
+ "note": "impressions/likes/clicks 为模拟值，仅用于演示反馈回流路径，不代表真实触达。",
+ "suggestions": [
+  "账号 fb-main：有 1 条发布失败，已进死信队列（out/dead_letter.jsonl）。失败率 17%；这一条不会被自动重发，需要人处理后重跑"
+ ],
+ "total": 6
+}

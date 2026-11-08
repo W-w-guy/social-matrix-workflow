@@ -11,6 +11,7 @@
 ```bash
 python3 test_all.py                    # 全量测试，一条命令
 python3 workflow.py demo               # 一键跑完整链路（含失败重放）
+ls samples/                            # 输出示例：9 份真实产物，先看长什么样
 ```
 
 `demo` 会打印一份汇总：生成几条草案、发出去几条、被审核门拦下几条、进死信几条。
@@ -40,7 +41,7 @@ python3 workflow.py approve  --draft d_xxxx --reviewer 张三
 | 客户要求 | 这里的实现 | 怎么验 |
 |---|---|---|
 | 可演示流程 | 六段式：登记→草案→审核→发布→恢复→反馈，每段一条命令、独立退出码 | `python3 workflow.py demo` |
-| 输入素材及输出示例 | `assets/` 4 份脱敏素材；`out/` 生成草案与发布结果 | `demo` 打印的汇总 |
+| 输入素材及输出示例 | `assets/` 4 份脱敏素材；`samples/` 9 份输出示例（一次真实运行的原始产物） | `ls assets/ samples/` 或 `demo` 打印的汇总 |
 | 账号授权与人工审核步骤 | 审核状态机 + `WORKFLOW.md` 的授权说明 | `workflow.py review` / 测试 `ReviewGate` |
 | 发布失败恢复 | 重试（指数退避）+ 死信队列 + 孤儿检测 | `WORKFLOW.md` 的五种场景 + 测试 `Publishing` |
 | 数据反馈说明 | 反馈台账 + 次日建议 | `workflow.py report` |

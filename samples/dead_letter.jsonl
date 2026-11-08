@@ -1,0 +1,1 @@
+{"account": "fb-main", "at": 1794106617.3226871, "attempts": 1, "draft_id": "d_7672e0f75a101751", "idempotency_key": "idem_46b9b2c892da0f424933a496", "last_http": 400, "reason": "不可重试错误（第 1 次尝试，http=400）", "slot": "D+0"}

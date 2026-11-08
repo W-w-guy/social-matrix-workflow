@@ -1,0 +1,54 @@
+{
+ "blocked_by_review": 1,
+ "failed": 0,
+ "published": 5,
+ "results": [
+  {
+   "attempts": 2,
+   "draft_id": "d_7672e0f75a101751",
+   "duplicate": false,
+   "idempotency_key": "idem_46b9b2c892da0f424933a496",
+   "ok": true,
+   "post_id": "post_2"
+  },
+  {
+   "attempts": 1,
+   "draft_id": "d_fc67d80b52085e69",
+   "duplicate": false,
+   "idempotency_key": "idem_e8c17ca88abfcc2dac4afc82",
+   "ok": true,
+   "post_id": "post_3"
+  },
+  {
+   "blocked": true,
+   "draft_id": "d_1ea07d1c28efce5a",
+   "ok": false,
+   "reason": "审核门拒绝：草案 d_1ea07d1c28efce5a 未审批，拒绝发布"
+  },
+  {
+   "attempts": 1,
+   "draft_id": "d_cd7bbb3f07b1dfa3",
+   "duplicate": false,
+   "idempotency_key": "idem_382300297c1f364140511464",
+   "ok": true,
+   "post_id": "post_4"
+  },
+  {
+   "attempts": 1,
+   "draft_id": "d_f1c40c443be01c4a",
+   "duplicate": false,
+   "idempotency_key": "idem_3a15ac9e2166f91ff7e21bd7",
+   "ok": true,
+   "post_id": "post_5"
+  },
+  {
+   "attempts": 1,
+   "draft_id": "d_dc25a8ac7bc6bf9b",
+   "duplicate": false,
+   "idempotency_key": "idem_1afd6d8b21238b98e5792ab0",
+   "ok": true,
+   "post_id": "post_6"
+  }
+ ],
+ "total": 6
+}

@@ -1,0 +1,47 @@
+{
+ "d_7672e0f75a101751": {
+  "at": "2026-11-08 10:56:56",
+  "draft_id": "d_7672e0f75a101751",
+  "draft_version": 1,
+  "note": "",
+  "reviewer": "demo-reviewer",
+  "supersedes": null,
+  "text_sha256": "cd92301585dcfbd9966e424242ffc4c3bf5b2b625c4483ca1f7cf54037bba192"
+ },
+ "d_cd7bbb3f07b1dfa3": {
+  "at": "2026-11-08 10:56:56",
+  "draft_id": "d_cd7bbb3f07b1dfa3",
+  "draft_version": 1,
+  "note": "",
+  "reviewer": "demo-reviewer",
+  "supersedes": null,
+  "text_sha256": "42178a95921cd570e723162ba9f6d101a08441816359ca6a6cdc1b2c6c2959a6"
+ },
+ "d_dc25a8ac7bc6bf9b": {
+  "at": "2026-11-08 10:56:56",
+  "draft_id": "d_dc25a8ac7bc6bf9b",
+  "draft_version": 1,
+  "note": "",
+  "reviewer": "demo-reviewer",
+  "supersedes": null,
+  "text_sha256": "5512fdf2995b305a6832ca53fcfd67454fbd28c7eb536c81696b89cab45e69be"
+ },
+ "d_f1c40c443be01c4a": {
+  "at": "2026-11-08 10:56:56",
+  "draft_id": "d_f1c40c443be01c4a",
+  "draft_version": 1,
+  "note": "",
+  "reviewer": "demo-reviewer",
+  "supersedes": null,
+  "text_sha256": "cd92301585dcfbd9966e424242ffc4c3bf5b2b625c4483ca1f7cf54037bba192"
+ },
+ "d_fc67d80b52085e69": {
+  "at": "2026-11-08 10:56:56",
+  "draft_id": "d_fc67d80b52085e69",
+  "draft_version": 1,
+  "note": "",
+  "reviewer": "demo-reviewer",
+  "supersedes": null,
+  "text_sha256": "5512fdf2995b305a6832ca53fcfd67454fbd28c7eb536c81696b89cab45e69be"
+ }
+}

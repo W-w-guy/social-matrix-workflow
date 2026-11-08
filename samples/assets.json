@@ -1,0 +1,50 @@
+{
+ "assets": [
+  {
+   "aliases": [],
+   "asset_id": "as_c60596b7d9e8",
+   "bytes": 57,
+   "encoding": "utf-8",
+   "file": "banned-claims.txt",
+   "kind": "text",
+   "sha256": "c60596b7d9e887ee2ba9aecd53818bb9b2f1e57194d1c7a4867a9775f0906bd4",
+   "text": "史上最强\n100%有效\n保证收益\n零风险\n国家级\n",
+   "text_chars": 25
+  },
+  {
+   "aliases": [],
+   "asset_id": "as_68313bf53cf6",
+   "bytes": 457,
+   "encoding": "utf-8",
+   "file": "brand-voice.md",
+   "kind": "text",
+   "sha256": "68313bf53cf60e00832473955d4fc14a6c538b1838db7b1f502e0615ed724995",
+   "text": "# 品牌口径（脱敏样例）\n\n- 语气：直接、专业、不夸张。不用绝对化词。\n- 长度：Facebook 正文 90-220 字，首行必须是可独立成立的钩子。\n- 标签：每条 3-5 个，必须包含 #跨境出海，不堆砌。\n- 链接：每条最多 1 个，放正文末尾。\n- 禁用：疗效、承诺收益、对比贬低竞品、未经验证的认证声明。\n- 图片：必须用素材库里的图，不得引用外链图床。\n",
+   "text_chars": 185
+  },
+  {
+   "aliases": [],
+   "asset_id": "as_cb2eb8d487b6",
+   "bytes": 56,
+   "encoding": "gbk",
+   "file": "legacy-supplier-table-gbk.csv",
+   "kind": "text",
+   "sha256": "cb2eb8d487b6b58e52a0d46181eaad68cb92bc66e11e7069fd373a99058121f3",
+   "text": "SKU,品名,备注\nSP-1005,户外便携餐具（四件套）,整单可拼箱\n",
+   "text_chars": 36
+  },
+  {
+   "aliases": [],
+   "asset_id": "as_a9da819ab91a",
+   "bytes": 504,
+   "encoding": "utf-8",
+   "file": "product-catalog.txt",
+   "kind": "text",
+   "sha256": "a9da819ab91a8bfdfab0d0d99a8da3fab7cdeff42387f5c4b47cc4127a2e21b6",
+   "text": "SKU,品名,卖点,目标站点\nSP-1001,不锈钢保温杯 500ml,12小时保冷6小时保温;食品级304内胆;可刻字定制;防漏一体盖,US\nSP-1002,折叠户外水壶 750ml,轻量仅120g可折叠收纳;徒步露营通勤三用;FDA认证材质;附挂扣织带,US\nSP-1003,便携咖啡滤杯,免滤纸直接冲泡;可重复清洗不残留;附赠收纳袋;适配大多数马克杯,UK\nSP-1004,儿童吸管保温杯,防漏翻盖一键开合;不含BPA材质;可拆卸吸管易清洗;350ml 适龄容量,DE\n",
+   "text_chars": 238
+  }
+ ],
+ "count": 4,
+ "folder": "assets"
+}
