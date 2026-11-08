@@ -142,3 +142,26 @@ python3 workflow.py demo     # 完整链路，含失败重放
 | 依赖 | 零第三方（仅标准库） |
 | 联网 | 不需要（仅 127.0.0.1 的 mock 端口） |
 | 明文凭据 | 无 |
+
+---
+
+## 五、2026-11-08 交付版本复验（本包即此版本）
+
+上面一到四节是 10-30 构建时的记录。交付前又按**交付包本身**复跑了一遍，记录如下。
+
+**这一版相对 10-30 的改动**：新增 `samples/`（9 份输出示例 + README），`MANIFEST.json` 重算为 35 个文件。
+
+| | Windows 11 / Python 3.11.7 | Ubuntu 24.04 / Python 3.12.3 |
+|---|---|---|
+| 环境 | zip 全新解压 | scp 后全新解压 + **全新 venv** |
+| `test_all.py` | **63 项通过**（11.45s） | **63 项通过**（8.65s） |
+| `workflow.py demo` | 退出码 **0** | 退出码 **0** |
+| `tools/verify_manifest.py` | `checked: 35`，changed/missing/extra 全空 | 同上 |
+| `assets.json` SHA256 | `11125665a8291042…` | 同 |
+| `drafts.json` SHA256 | `44643181ce2acfd6…` | 同 |
+
+多账号也验过：`draft --accounts fb-main,fb-second --days 2` 生成 12 条（每账号 6 条），退出码 0。
+
+**samples/ 的口径**：那是 `demo` 在 Windows 上一次真实运行的原始产物，一字未改。
+其中 `at` 与幂等键每次跑都不同，所以那 9 个文件不承诺字节复现；
+真正字节可复现的是 `assets.json` 与 `drafts.json` 里由素材决定的字段 —— 就是上表最后两行。

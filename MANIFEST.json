@@ -12,9 +12,9 @@
    "sha256": "7267e31210e64abd472c7c6616f2aa7829ce7a3472e5edc7d86b056c6447179c"
   },
   {
-   "bytes": 5831,
+   "bytes": 7076,
    "path": "VERIFICATION.md",
-   "sha256": "a51a8a747a8becfd5a2117d8a4eadebbf60b9422db0d21b96e382514fc090d34"
+   "sha256": "4dd0cd2d1de09c18de68112afbc28b74ae8a12a8c0a6f07673d891aae5e1e7ba"
   },
   {
    "bytes": 6264,
@@ -182,7 +182,7 @@
  "package": "social-matrix-workflow",
  "purpose": "海外社媒矩阵工作流样例（Facebook 优先，模拟发布端）",
  "python": "3.9+（仅标准库）",
- "total_bytes": 134436,
+ "total_bytes": 135681,
  "verified_on": [
   "Windows 11 / Python 3.11.7",
   "Ubuntu 24.04 / Python 3.12.3"
