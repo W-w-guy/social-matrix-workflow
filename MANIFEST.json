@@ -1,10 +1,10 @@
 {
- "files": 25,
+ "files": 35,
  "manifest": [
   {
-   "bytes": 6288,
+   "bytes": 6442,
    "path": "README.md",
-   "sha256": "49e70b546fdc82a9cab4ddd449f16dcb7e3d826cf42a173ad0842e90ab7a3adf"
+   "sha256": "ab774dacb49b11244bbdd26f4f0badcda6903da51f63ad7d2e53e78bf97df6da"
   },
   {
    "bytes": 3880,
@@ -82,6 +82,56 @@
    "sha256": "5d3a82794e88ff06a84d31025ff52b93d2c40af7a15a2b584e030b60be2a7d07"
   },
   {
+   "bytes": 2169,
+   "path": "samples/README.md",
+   "sha256": "74066c133f8162a3829e3a07abb0f00fbbc8dd6cc9b791132402ff3d96fc294d"
+  },
+  {
+   "bytes": 1348,
+   "path": "samples/approvals.json",
+   "sha256": "e40f3b8053f885708cf05756d8be3589cc484ada4ca04ad4d9bec926150090a7"
+  },
+  {
+   "bytes": 2252,
+   "path": "samples/assets.json",
+   "sha256": "11125665a8291042d2ab6260f561405d67fe6d536a6cc315d6003a25c74365f5"
+  },
+  {
+   "bytes": 247,
+   "path": "samples/dead_letter.jsonl",
+   "sha256": "2eb88982fd06752e5c0c35016f2cc6c9e2f1926290e6fae222aa68cb57ee3c7e"
+  },
+  {
+   "bytes": 3315,
+   "path": "samples/drafts.json",
+   "sha256": "44643181ce2acfd6cb812f0982a7946f8c5fbf628e614964e0c661a351524edd"
+  },
+  {
+   "bytes": 1665,
+   "path": "samples/feedback.jsonl",
+   "sha256": "43427bb86f7627525c14b56ae8e723a5c661e76291a4696ba3b06065f85d8791"
+  },
+  {
+   "bytes": 434,
+   "path": "samples/feedback_report.json",
+   "sha256": "5d8a270ee9e6fe70db57b01e3582bbaa09a3625c03a43438b9773e4eb79748a3"
+  },
+  {
+   "bytes": 4718,
+   "path": "samples/publish_ledger.jsonl",
+   "sha256": "fd5d88c81a1e32d244ec2135043cfe418be439b51973b31d3e45bf581523fdf8"
+  },
+  {
+   "bytes": 1155,
+   "path": "samples/publish_summary.json",
+   "sha256": "a9d9b9995549b21a3e3fa33002f937c93bd02c215b808843963db0a31a39cef4"
+  },
+  {
+   "bytes": 1245,
+   "path": "samples/reviews.jsonl",
+   "sha256": "e745713fc5203ab79e46f13dbaaf00164f27a1948ce44be1f7b421e262935da8"
+  },
+  {
    "bytes": 590,
    "path": "skills/README.md",
    "sha256": "df82b3ddafc8ba1f136ed0983425ebf01e91cb839b2f006a6880ad295d91bdf5"
@@ -132,7 +182,7 @@
  "package": "social-matrix-workflow",
  "purpose": "海外社媒矩阵工作流样例（Facebook 优先，模拟发布端）",
  "python": "3.9+（仅标准库）",
- "total_bytes": 115734,
+ "total_bytes": 134436,
  "verified_on": [
   "Windows 11 / Python 3.11.7",
   "Ubuntu 24.04 / Python 3.12.3"
